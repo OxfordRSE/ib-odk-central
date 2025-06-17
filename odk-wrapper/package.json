@@ -23,7 +23,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OxfordRSE/odk-wrapper.git"
+    "url": "git+https://github.com/OxfordRSE/ib-odk-wrapper.git"
   },
   "keywords": [
     "ODK",
@@ -32,9 +32,9 @@
   "author": "Matt Jaquiery",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OxfordRSE/odk-wrapper/issues"
+    "url": "https://github.com/OxfordRSE/ib-odk-wrapper/issues"
   },
-  "homepage": "https://github.com/OxfordRSE/odk-wrapper#readme",
+  "homepage": "https://github.com/OxfordRSE/ib-odk-wrapper#readme",
   "dependencies": {
     "archiver": "^7.0.1",
     "axios": "^1.10.0",
