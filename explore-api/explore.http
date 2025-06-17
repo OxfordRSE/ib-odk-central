@@ -1,0 +1,49 @@
+###
+POST https://odk-central-test.oxrse.uk/v1/sessions
+Content-Type: application/json
+
+{
+    "email": "matt.jaquiery@dtc.ox.ac.uk",
+    "password": "'b*9-5V9F6JT84\""
+}
+
+###
+GET https://odk-central-test.oxrse.uk/v1/projects
+Authorization: Basic bWF0dC5qYXF1aWVyeUBkdGMub3guYWMudWs6J2IqOS01VjlGNkpUODQi
+
+###
+GET https://odk-central-test.oxrse.uk/v1/projects/1
+Authorization: Basic bWF0dC5qYXF1aWVyeUBkdGMub3guYWMudWs6J2IqOS01VjlGNkpUODQi
+
+###
+GET https://odk-central-test.oxrse.uk/v1/projects/1/forms
+Authorization: Basic bWF0dC5qYXF1aWVyeUBkdGMub3guYWMudWs6J2IqOS01VjlGNkpUODQi
+
+###
+GET https://odk-central-test.oxrse.uk/v1/projects/1/forms/IB Test/submissions
+Authorization: Basic bWF0dC5qYXF1aWVyeUBkdGMub3guYWMudWs6J2IqOS01VjlGNkpUODQi
+
+# Encrypted project
+###
+GET https://odk-central-test.oxrse.uk/v1/projects/2
+Authorization: Basic bWF0dC5qYXF1aWVyeUBkdGMub3guYWMudWs6J2IqOS01VjlGNkpUODQi
+
+###
+GET https://odk-central-test.oxrse.uk/v1/projects/2/forms
+Authorization: Basic bWF0dC5qYXF1aWVyeUBkdGMub3guYWMudWs6J2IqOS01VjlGNkpUODQi
+
+###
+GET https://odk-central-test.oxrse.uk/v1/projects/2/forms/IB Test/submissions
+Authorization: Basic bWF0dC5qYXF1aWVyeUBkdGMub3guYWMudWs6J2IqOS01VjlGNkpUODQi
+
+###
+GET https://odk-central-test.oxrse.uk/v1/projects/2/forms/IB Test/submissions.csv
+    ?1=password1234
+Authorization: Basic bWF0dC5qYXF1aWVyeUBkdGMub3guYWMudWs6J2IqOS01VjlGNkpUODQi
+
+
+###
+GET https://odk-central-test.oxrse.uk/v1/projects/2/forms/IB Test/submissions.csv.zip
+    ?1=password1234
+Authorization: Basic bWF0dC5qYXF1aWVyeUBkdGMub3guYWMudWs6J2IqOS01VjlGNkpUODQi
+

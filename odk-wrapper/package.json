@@ -1,0 +1,50 @@
+{
+  "name": "odk-wrapper",
+  "version": "1.0.0",
+  "description": "Wrapper API to call ODK Central's submissions download endpoint and return those data longitudinally linked and redacted.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/archiver": "^6.0.3",
+    "@types/express": "^5.0.3",
+    "@types/json2csv": "^5.0.7",
+    "@types/node": "^24.0.3",
+    "@types/swagger-ui-express": "^4.1.8",
+    "@types/unzipper": "^0.10.11",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OxfordRSE/odk-wrapper.git"
+  },
+  "keywords": [
+    "ODK",
+    "longitudinal"
+  ],
+  "author": "Matt Jaquiery",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OxfordRSE/odk-wrapper/issues"
+  },
+  "homepage": "https://github.com/OxfordRSE/odk-wrapper#readme",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "axios": "^1.10.0",
+    "csvtojson": "^2.0.10",
+    "express": "^5.1.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "swagger-ui-express": "^5.0.1",
+    "unzipper": "^0.12.3",
+    "uuid": "^11.1.0",
+    "zod": "^3.25.67",
+    "zod-openapi": "^4.2.4"
+  }
+}
